@@ -1,0 +1,80 @@
+/* ChatRoom.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.header-wrapper {
+  background-color: #4285f4;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Chat room styles */
+.chat-room {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.chat-sender {
+  font-weight: bold;
+}
+
+/* Rate limit styles */
+.rate-limit {
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* Message form styles */
+.message-form {
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+}
+
+.message-text-box {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.send-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #3367d6;
+}
